@@ -7,7 +7,7 @@ const migrationhelper = require('./migrationhelper')
 const cors = require('cors')
 
 const { check, validationResult } = require('express-validator');
-const { validateCreateProduct } = require('./validators/userValidators.js');
+const { validateCreateProduct } = require('./validators/productValidators.js');
 
 app.use(express.json());
 app.use(cors());
