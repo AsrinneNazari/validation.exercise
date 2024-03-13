@@ -1,0 +1,18 @@
+### create a new product 
+POST http://localhost:3000/api/products
+Content-Type: application/json; charset=utf-8
+
+{ 
+"productName":"Milk",
+ "SupplierID": 1234,
+ "CategoryID": 1,
+ "UnitType":"kilo",
+ "UnitsInStock": 2,
+ "Active":true,
+ "CountryCode":"SWE"
+  }
+
+
+
+### c
+GET http://localhost:3000/api/products
